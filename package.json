@@ -7,7 +7,7 @@
     "build": "prisma generate && next build --no-lint",
     "start": "next start",
     "lint": "eslint",
-    "postinstall": "prisma generate"
+    "postinstall": "npm install framer-motion && prisma generate"
   },
   "dependencies": {
     "@prisma/client": "^6.19.0",
